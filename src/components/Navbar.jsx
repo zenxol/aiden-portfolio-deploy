@@ -11,7 +11,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
             <div className="max-w-5xl mx-auto px-4">
                 <div className="flex justify-between items-center h-16">
                     <a href="#home" className="font-mono text-xl font-bold text-white"> 
-                        Aiden<span className="text-blue-500">.tech</span>{" "}
+                        Aiden<span className="text-blue-500"> Nguyen</span>{" "}
                     </a>
                     
                     <div 
@@ -36,6 +36,14 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                         <a href="#contact" className="text-gray-300 hover:text-white transition-colors"> 
                             {" "}
                             Contact{" "}
+                        </a>
+                        <a href="https://www.linkedin.com/in/aidennguyencmu/" className="text-gray-300 hover:text-white transition-colors"> 
+                            {" "}
+                            Linkedin{" "}
+                        </a>
+                        <a href="https://github.com/zenxol" className="text-gray-300 hover:text-white transition-colors"> 
+                            {" "}
+                            Github{" "}
                         </a>
 
                     </div>

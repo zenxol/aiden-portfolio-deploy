@@ -2,8 +2,8 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
 
-    const frontendSkills = ["React", "HTML", "CSS", "Javascript", "TailwindCSS", "Bootstrap"];
-    const backendSkills = ["Supabase", "Python", "SQL", "PostgreSQL"];
+    const frontendSkills = ["React", "HTML", "CSS", "Javascript", "Typescript", "TailwindCSS", "Bootstrap", "Figma"];
+    const backendSkills = ["Supabase", "Python", "C", "SQL", "PostgreSQL", "Qdrant"];
     return (
         <section 
             id="about" 
@@ -16,7 +16,7 @@ export const About = () => {
 
                     <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
                         <p className="text-gray-300 mb-6">
-                            "Generic text about me"
+                            Aspiring software engineer with experiences in simple full stack development, natural language processing, and AI prompting. Also love to backpack the world and explore new places.
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -63,7 +63,8 @@ export const About = () => {
                                     <strong> B.S. in Electrical & Computer Engineering</strong> - Carnegie Mellon University (2024-2028)
                                 </li>
                                 <li>
-                                    Relevant Coursework: 
+                                    <strong>Relevant Coursework:</strong> Computer Systems, Foundations of Software Engineering, Data Structures and Algorithms, Mobile Web Design & Development, Signal Processing &
+Systems Analysis, Discrete Mathematics, Fundamentals of Programming, Introduction to ECE
                                 </li>
                             </ul>
                         </div>
@@ -73,13 +74,21 @@ export const About = () => {
                                 <div>
                                     <h4 className="font-semibold"> Software Engineering Intern at Proforma (May 2025 - August 2025)</h4>
                                     <p> 
-                                        Action....
+                                        ● Developed a secure, AI/ML-driven product recommendation engine leveraging RAG workflows with LlamaIndex,
+Qdrant (vector database), and PrivateGPT to deliver personalized suggestions from a catalog of over 1 million
+promotional products <br></br>
+● Implemented an NLP filtering pipeline using TextBlob, spaCy, and NLTK to extract key attributes and phrases from
+user prompts, improving prompt comprehension and reducing irrelevant LLM suggestions by 30%
                                     </p>
                                 </div>
                                 <div>
                                     <h4 className="font-semibold"> Research Assistant at CMU HCI (January 2025 - May 2025)</h4>
                                     <p> 
-                                        Action....
+                                        ● Constructed automation tools utilizing Google Apps Script and JSON parsing to structure quantitative participant
+data; filtered data to analyze high-activity periods for simulation design and AI model refinement <br></br>
+● Recruited 10+ participants and conducted qualitative interviews to support development of a multi-agent AI care
+coordination system; obtained real-world data from user call logs, transcripts, and Google Maps Timeline
+
                                     </p>
                                 </div>
                             </div>
