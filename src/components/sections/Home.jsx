@@ -1,13 +1,21 @@
 import { RevealOnScroll } from "../RevealOnScroll"
-
+import NeuralBackground from "../ui/flow-field-background"
 
 export const Home = () => {
     return (
         <section 
             id="home" 
-            className="min-h-screen flex items-center justify-center relative">
+            className="min-h-screen flex items-center justify-center relative overflow-hidden">
+            <div className="absolute inset-0 z-0">
+                <NeuralBackground 
+                    color="#3b82f6"
+                    trailOpacity={0.1}
+                    particleCount={600}
+                    speed={0.8}
+                />
+            </div>
             <RevealOnScroll>
-                <div className="text-center z-10 px-4">
+                <div className="text-center relative z-10 px-4">
                     <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-tight">
                         Hi, I'm Aiden Nguyen
                     </h1>
