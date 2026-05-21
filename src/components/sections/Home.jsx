@@ -21,7 +21,7 @@ export const Home = () => {
                     </h1>
 
                     <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                        I'm a sophomore studying Electrical & Computer Engineering at Carnegie Mellon University. I enjoy building full stack applications and applying AI driven solutions. In my free time, I regulary play pickleball, weightlift, and listen to house music. 
+                        I'm a junior majoring in Electrical & Computer Engineering and minoring in Computer Science at Carnegie Mellon University. I enjoy building full stack applications and applying AI driven solutions. In my free time, I regulary play pickleball, weightlift, and listen to house music. 
                     </p>
                     <div className="flex justify-center space-x-4">
                         <a href="#projects" className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 
