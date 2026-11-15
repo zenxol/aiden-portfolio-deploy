@@ -2,10 +2,67 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
 
-    const frontendSkills = ["React", "Next.js", "HTML/CSS", "JavaScript", "TypeScript", "Tailwind CSS", "Figma"];
-    const backendSkills = ["Python", "Java", "C", "x86-64 Assembly", "MATLAB", "SQL", "FastAPI", "Flask", "Node.js", "PostgreSQL", "Supabase", "Qdrant"];
-    const toolSkills = ["Git", "Docker", "Linux", "AWS", "Azure", "PyTest", "Jest", "Vercel", "Railway", "Figma"];
-    const aiSkills = ["LlamaIndex", "PrivateGPT", "YOLOv8", "OpenCV", "MediaPipe", "spaCy", "NLTK"];
+
+
+const languageSkills = [
+  "Python",
+  "Java",
+  "JavaScript",
+  "TypeScript",
+  "C",
+  "C#",
+  "SQL",
+  "HTML/CSS",
+  "x86-64 Assembly",
+  "MATLAB"
+];
+
+const frontendSkills = [
+  "React",
+  "Next.js",
+  "Tailwind CSS",
+  "Figma"
+];
+
+const backendSkills = [
+  "FastAPI",
+  "Flask",
+  "Django",
+  "Node.js",
+  ".NET 8",
+  "PostgreSQL",
+  "Microsoft SQL Server",
+  "Supabase"
+];
+
+const toolSkills = [
+  "Git",
+  "Docker",
+  "Kubernetes",
+  "OpenShift",
+  "Linux",
+  "AWS",
+  "Azure",
+  "PyTest",
+  "Jest",
+  "Vercel",
+  "Railway",
+  "CI/CD"
+];
+
+const aiSkills = [
+  "LlamaIndex",
+  "Qdrant",
+  "PrivateGPT",
+  "YOLOv8",
+  "OpenCV",
+  "MediaPipe",
+  "spaCy",
+  "NLTK",
+  "RAG"
+];
+
+
     return (
         <section 
             id="about" 
@@ -22,6 +79,20 @@ export const About = () => {
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                                <h3 className="text-xl font-bold mb-4"> Language Skills </h3>
+                                <div className="flex flex-wrap gap-2">
+                                    {languageSkills.map((tech, key) => (
+                                        <span
+                                        key={key}
+                                        className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                                                        hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+                                        >
+                                            {tech}
+                                        </span>
+                                    ))}
+                                </div>
+                            </div>
                             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                                 <h3 className="text-xl font-bold mb-4"> Frontend </h3>
                                 <div className="flex flex-wrap gap-2">
@@ -99,8 +170,19 @@ Systems Analysis, Discrete Mathematics, Fundamentals of Programming, Introductio
                         <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                             <h3 className="text-xl font-bold mb-4"> Work Experiences</h3>
                             <div className="space-y-4 text-gray-300">
+                                    <div>
+                                    <h4 className="font-semibold"> Incoming...(Summer 2027)</h4>
+                                    <p> 
+                                    </p>
+                                </div>
                                 <div>
-                                    <h4 className="font-semibold"> Software Engineering Intern at Proforma (May 2025 - August 2026)</h4>
+                                    <h4 className="font-semibold"> Software Engineering Intern at Proforma (May 2026 - August 2026)</h4>
+                                    <p> 
+                                        Image normalization pipeline & Product enrichment through media classification
+                                    </p>
+                                </div>
+                                <div>
+                                    <h4 className="font-semibold"> Software Engineering Intern at Proforma (May 2025 - August 2025)</h4>
                                     <p> 
                                         Natural language processing pipeline for an AI product recommendation engine
                                     </p>
